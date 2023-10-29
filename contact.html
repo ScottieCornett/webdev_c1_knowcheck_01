@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie-edge" />
+    <title>Contact | Scottie Cornett Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Cabin|Roboto:400,700|Roboto+Condensed:400,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <section class="header-container">
+      <header class="header-content">
+        <div class="main-logo">
+          <span>Scottie Cornett Portfolio</span>
+        </div>
+
+        <nav class="main-nav">
+          <ul id="navigation">
+            <li><a href="#aboutme">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+
+        <nav class="mobile-nav">
+          <span><a href="#">☰</a></span>
+        </nav>
+      </header>
+    </section>
+    <section class="contact-container">
+      <h1>Contact Me!</h1>
+      <p>
+        If you are ready to hire your next <em>great</em> web developer, then
+        feel free reach out using the contact form below. Thank you for taking
+        the time to view my portfolio!
+      </p>
+      <form action="" class="contact-form">
+        <div>
+          <label for="first-name">First Name</label>
+          <input type="text" name="first-name" />
+          <label for="last-name">Last Name</label>
+          <input type="text" name="last-name" />
+
+          <label for="company">Company</label>
+          <input type="text" name="company" />
+
+          <label for="city">City</label>
+          <input type="text" name="city" />
+        </div>
+        <div>
+          <label for="state">State</label>
+          <select name="state" id="state">
+            <option value="Select-State" class="state-select">
+              --Select State--
+            </option>
+            <option value="Alabama">Alabama</option>
+            <option value="Alaska">Alaska</option>
+            <option value="Arizona">Arizona</option>
+            <option value="Arkansas">Arkansas</option>
+            <option value="California">California</option>
+            <option value="Colorado">Colorado</option>
+            <option value="Connecticut">Connecticut</option>
+            <option value="Delaware">Delaware</option>
+            <option value="Florida">Florida</option>
+            <option value="Georgia">Georgia</option>
+            <option value="Hawaii">Hawaii</option>
+            <option value="Idaho">Idaho</option>
+            <option value="Illinois">Illinois</option>
+            <option value="Indiana">Indiana</option>
+            <option value="Iowa">Iowa</option>
+            <option value="Kansas">Kansas</option>
+            <option value="Kentucky">Kentucky</option>
+            <option value="Louisiana">Louisiana</option>
+            <option value="Maine">Maine</option>
+            <option value="Maryland">Maryland</option>
+            <option value="Massachusetts">Massachusetts</option>
+            <option value="Michigan">Michigan</option>
+            <option value="Minnesota">Minnesota</option>
+            <option value="Mississippi">Mississippi</option>
+            <option value="Missouri">Missouri</option>
+            <option value="Montana">Montana</option>
+            <option value="Nebraska">Nebraska</option>
+            <option value="Nevada">Nevada</option>
+            <option value="New Hampshire">New Hampshire</option>
+            <option value="New Jersey">New Jersey</option>
+            <option value="New Mexico">New Mexico</option>
+            <option value="New York">New York</option>
+            <option value="North Carolina">North Carolina</option>
+            <option value="North Dakota">North Dakota</option>
+            <option value="Ohio">Ohio</option>
+            <option value="Oklahoma">Oklahoma</option>
+            <option value="Oregon">Oregon</option>
+            <option value="Pennsylvania">Pennsylvania</option>
+            <option value="Rhode Island">Rhode Island</option>
+            <option value="South Carolina">South Carolina</option>
+            <option value="South Dakota">South Dakota</option>
+            <option value="Tennessee">Tennessee</option>
+            <option value="Texas">Texas</option>
+            <option value="Utah">Utah</option>
+            <option value="Vermont">Vermont</option>
+            <option value="Virginia">Virginia</option>
+            <option value="Washington">Washington</option>
+            <option value="West Virginia">West Virginia</option>
+            <option value="Wisconsin">Wisconsin</option>
+            <option value="Wyoming">Wyoming</option>
+          </select>
+        </div>
+        <div>
+          <label for="role">Position being sought</label>
+          <input type="text" name="role" />
+        </div>
+        <div>
+          <p>Primary Focus:</p>
+          <label for="front-end">Front-end</label>
+          <input type="checkbox" name="front-end" id="front-end" />
+          <label for="back-end">Back-end</label>
+          <input type="checkbox" name="back-end" id="back-end" />
+          <label for="full-stack">Full-stack</label>
+          <input type="checkbox" name="full-stack" id="full-stack" />
+        </div>
+        <div>
+          <label for="comments">Comments</label>
+          <textarea
+            name="comments"
+            id="comments"
+            cols="30"
+            rows="10"
+            placeholder="Additional information"
+          ></textarea>
+        </div>
+        <div id="contact-submit">
+          <a href="#" class="btn btn-contact" id="open-modal">Submit</a>
+        </div>
+      </form>
+    </section>
+    <div class="modal hidden">
+      <button class="close-modal">&times;</button>
+      <h1>Thank you for your interest!!!!</h1>
+      <p>
+        Unfortunately, this is just a demo (for now), thus this form is not
+        actually functional. However, if you are <em>truly</em> interested in
+        hiring me at this point (which you should be, anyway 😉), then please
+        feel free to reach me at
+        <a
+          href="mailto:scottie.cornett@gmail.com?subject=Interested%20in%20hiring%20you"
+          target="_blank"
+          >scottie.cornett@gmail.com</a
+        >. Thanks and have a wonderful day!
+      </p>
+    </div>
+    <div class="overlay hidden"></div>
+    <script src="js/app.js"></script>
+  </body>
+</html>
