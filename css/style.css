@@ -474,6 +474,10 @@ section p {
   line-height: 1.5;
 }
 
+.contact-container p {
+  font-size: 1.5em;
+}
+
 /* Lists and Navigation
 ========================================================================== */
 

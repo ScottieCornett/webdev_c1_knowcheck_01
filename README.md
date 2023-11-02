@@ -14,7 +14,7 @@ To Do:
 - [x ] 2. Center div `hero-content` in `hero` section
 - [x ] 3. Change `Hero` button `:hover` colors.
 - [x ] 4. Change photo in `About Me` section.
-- [ ] 5. BONUS: Add a `Contact` section.
+- [x ] 5. BONUS: Add a `Contact` section.
 
 ---
 
